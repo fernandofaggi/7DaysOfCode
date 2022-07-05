@@ -15,22 +15,22 @@ let stringDez = '10'
 
 //COMPARAR O numeroUm e a stringUm
 if (numeroUm == stringUm ) {
-  console.log('As variáveis numeroUm e stringUm tem o mesmo valor, mas tipos diferentes')
+  console.log('As variáveis numeroUm e stringUm tem o mesmo valor, mas tipos diferentes', "\n")
 } 
 else {
-  console.log('As variáveis numeroUm e stringUm não tem o mesmo valor')
+  console.log('As variáveis numeroUm e stringUm não tem o mesmo valor', "\n")
 }
 
 // COMPARA numero 30 e string 30
-if (numeroTrinta == stringTrinta ) {
-  console.log('As variáveis numeroTrinta e stringTrinta tem o mesmo valor e mesmo tipo')
+if (numeroTrinta === stringTrinta) {
+  console.log( 'As variáveis numeroTrinta e stringTrinta tem o mesmo valor e mesmo tipo', "\n" )
 } else {
-  console.log('As variáveis numeroTrinta e stringTrinta não tem o mesmo tipo')
+  console.log('As variáveis numeroTrinta e stringTrinta não tem o mesmo tipo', "\n")
 }
 // compara numero 10 e string 10 
 if (numeroDez == stringDez) {
-  console.log('As variáveis numeroDez e stringDez tem o mesmo valor, mas tipos diferentes')
+  console.log('As variáveis numeroDez e stringDez tem o mesmo valor, mas tipos diferentes', "\n")
 } else {
-  console.log('As variáveis numeroDez e stringDez não tem o mesmo valor')
+  console.log('As variáveis numeroDez e stringDez não tem o mesmo valor', "\n")
 }
 
