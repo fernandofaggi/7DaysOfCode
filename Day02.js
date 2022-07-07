@@ -36,4 +36,16 @@ const rspLinguagem = linguagem;
 alert ("Olá " + rspNome + " ,Voce tem " + rspIdade + " e já esta aprendendo " + rspLinguagem);
 
 
+const pergunta = prompt("Você gosta de estudar " + rspLinguagem + " ? Responda com o número 1 para SIM ou 2 para NÃO.")
+const resposta = pergunta;
+
+if (resposta == 1) {
+    alert ("Muito bom! Continue estudando e você terá muito sucesso.");
+}
+
+if(resposta == 2){
+    alert ("Ahh que pena... Já tentou aprender outras linguagens?");
+}
+
+
 
