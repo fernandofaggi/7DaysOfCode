@@ -1,7 +1,7 @@
 # 7DaysOfCode
 ------------------------------------------------------------------------------------------------------------------------------
 Aula 01 
-Chegou a hora, FERNANDO H! Você vai começar a sua jornada no #7DaysOfCode ;)
+Chegou a hora, ! Você vai começar a sua jornada no #7DaysOfCode ;)
 
 Este primeiro dia é super importante! Ao final dele, você terá um novo conhecimento que é essencial para os próximos desafios.
 
