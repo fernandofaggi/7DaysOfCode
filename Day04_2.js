@@ -13,7 +13,7 @@ const nAletorio = Math.floor(Math.random() * (10 - 0 + 1) + 0);
 console.log (nAletorio)
 let i = 0;
 
-
+const avisos = ["Errou Voce tem mais 2 chances" , "Errou voce tem mais 1 chance", "Perdeu"] 
 
 while (i < 3)
             {
@@ -24,12 +24,13 @@ while (i < 3)
 
                 if (pNumeroEscolhido == nAletorio)
                     {
-                        alert ("Voce Acertou !" )
+                        alert ("Parabens !!!! Voce Acertou !" )
                         break
                     }
                 else 
                     {
-                        alert(" Errou !!! ")
+                        alert(avisos[i-1])
                     }
 
             }
+        
