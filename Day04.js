@@ -27,7 +27,7 @@ else
     alert("Errou !!! escolha outra numero");
     
      
-    const sNumeroEscolhido = prompt("Escolha um número de 1 a 10");
+    const sNumeroEscolhido = prompt("Escolha um número de 1 a 10 diferente de " + pNumeroEscolhido );
     console.log (nAletorio)
                 if (sNumeroEscolhido == nAletorio)
                 {
@@ -37,14 +37,14 @@ else
                 else {
                     alert("Errou !!! escolha outra numero");
                                
-                    const TNumeroEscolhido = prompt("Escolha um número de 1 a 10");
+                    const TNumeroEscolhido = prompt("Escolha um número de 1 a 10 diferentes de " + pNumeroEscolhido + " e " + sNumeroEscolhido );
                     console.log (nAletorio)
                             if (TNumeroEscolhido == nAletorio){
                                 alert("Parabens Voce acertou !!!!");
                             }
                             
                             else {
-                                alert("Errou !!! Fim de Jogo");
+                                alert("Errou !!! o numero correto era " + nAletorio + " Fim de Jogo");
                             }
 
                 }
